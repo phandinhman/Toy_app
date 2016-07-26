@@ -1,6 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+archer:
   name: Rails tutorial
   email: xxx@xxx.com
   password_digest: <%= User.digest('password')%>
+michael:
+  name: Rails tutorial
+  email: test@xxx.com
+  password_digest: <%= User.digest('password')%>
+  admin: true
+
+  
